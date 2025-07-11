@@ -1,0 +1,21 @@
+
+"MILES" = "MILLAS";
+"TIME" = "TIEMPO";
+"MPH" = "MPH";
+"kph" = "KPH";
+"km" = "km";
+"mi" = "mi";
+"START" = "🚴 EMPEZAR";
+"PAUSE" = "⏸️ PAUSA";
+"RESET" = "🔄 REINICIAR";
+"SAVE RIDE" = "💾 GUARDAR VIAJE";
+"VIEW SAVED RIDES" = "📊 VER VIAJES GUARDADOS";
+"No rides saved yet" = "No hay viajes guardados todavía";
+"Start tracking your adventures!" = "¡Empieza a seguir tus aventuras!";
+"avg speed" = "vel media";
+"top speed" = "vel máxima";
+"Saved Rides" = "📊 Viajes Guardados";
+"Settings" = "Ajustes";
+"Units" = "Unidades";
+"Use Metric Units" = "Usar Unidades Métricas";
+"Bike Tracker" = "🚴 Pedal de Bicicleta";

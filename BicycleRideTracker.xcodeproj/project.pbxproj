@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255EA23C6E0247AEA5955E429F1D7F33 /* BikeTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE15F5D0B0435880874DF8AAE152A6 /* BikeTheme.swift */; };
+		8641613E2C2B41940035393C /* BicycleRideTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8641613D2C2B41940035393C /* BicycleRideTrackerApp.swift */; };
+		864161402C2B41940035393C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8641613F2C2B41940035393C /* ContentView.swift */; };
+		864161432C2B41940035393C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864161422C2B41940035393C /* Assets.xcassets */; };
+		864161452C2B41940035393C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864161442C2B41940035393C /* Preview Assets.xcassets */; };
+		8641614D2C2B41940035393C /* RideService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8641614C2C2B41940035393C /* RideService.swift */; };
+		F541B1512E1ACF4200EAE471 /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8641614E2C2B41940035393C /* Ride.swift */; };
+		F541B1532E1B5ADF00EAE471 /* SavedRidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864161512C2B41940035393C /* SavedRidesView.swift */; };
+		F541B1552E1AD00400EAE471 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541B1562E1AD00400EAE471 /* SplashScreenView.swift */; };
+		F541B1592E1AD00700EAE471 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541B1572E1AD00500EAE471 /* AppSettings.swift */; };
+		F541B15A2E1AD00800EAE471 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541B1582E1AD00600EAE471 /* SettingsView.swift */; };
+		F541B15D2E1AD00B00EAE471 /* en.lproj/Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F541B15B2E1AD00900EAE471 /* en.lproj/Localizable.strings */; };
+		F541B15E2E1AD00C00EAE471 /* es.lproj/Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F541B15C2E1AD00A00EAE471 /* es.lproj/Localizable.strings */; };
+		F5A92F232E21B94E0035ECB2 /* AppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A92F222E21B94E0035ECB2 /* AppIconView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67BE15F5D0B0435880874DF8AAE152A6 /* BikeTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeTheme.swift; sourceTree = "<group>"; };
+		8641613A2C2B41940035393C /* BicycleRideTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BicycleRideTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8641613D2C2B41940035393C /* BicycleRideTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicycleRideTrackerApp.swift; sourceTree = "<group>"; };
+		8641613F2C2B41940035393C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		864161422C2B41940035393C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		864161442C2B41940035393C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		864161462C2B41940035393C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8641614C2C2B41940035393C /* RideService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideService.swift; sourceTree = "<group>"; };
+		8641614E2C2B41940035393C /* Ride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
+		864161512C2B41940035393C /* SavedRidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedRidesView.swift; sourceTree = "<group>"; };
+		F541B1562E1AD00400EAE471 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		F541B1572E1AD00500EAE471 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		F541B1582E1AD00600EAE471 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F541B15B2E1AD00900EAE471 /* en.lproj/Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F541B15C2E1AD00A00EAE471 /* es.lproj/Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5A92F222E21B94E0035ECB2 /* AppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		864161342C2B41940035393C = {
+			isa = PBXGroup;
+			children = (
+				8641613C2C2B41940035393C /* BicycleRideTracker */,
+				8641613B2C2B41940035393C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8641613B2C2B41940035393C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8641613A2C2B41940035393C /* BicycleRideTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8641613C2C2B41940035393C /* BicycleRideTracker */ = {
+			isa = PBXGroup;
+			children = (
+				F5A92F222E21B94E0035ECB2 /* AppIconView.swift */,
+				F541B1572E1AD00500EAE471 /* AppSettings.swift */,
+				F541B1582E1AD00600EAE471 /* SettingsView.swift */,
+				8641613D2C2B41940035393C /* BicycleRideTrackerApp.swift */,
+				8641613F2C2B41940035393C /* ContentView.swift */,
+				67BE15F5D0B0435880874DF8AAE152A6 /* BikeTheme.swift */,
+				8641614C2C2B41940035393C /* RideService.swift */,
+				8641614E2C2B41940035393C /* Ride.swift */,
+				864161422C2B41940035393C /* Assets.xcassets */,
+				864161472C2B41940035393C /* Preview Content */,
+				864161462C2B41940035393C /* Info.plist */,
+				864161512C2B41940035393C /* SavedRidesView.swift */,
+				F541B1562E1AD00400EAE471 /* SplashScreenView.swift */,
+				F541B15F2E1AD00D00EAE471 /* Resources */,
+			);
+			path = BicycleRideTracker;
+			sourceTree = "<group>";
+		};
+		864161472C2B41940035393C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				864161442C2B41940035393C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F541B15F2E1AD00D00EAE471 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F541B15B2E1AD00900EAE471 /* en.lproj/Localizable.strings */,
+				F541B15C2E1AD00A00EAE471 /* es.lproj/Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		864161392C2B41940035393C /* BicycleRideTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8641614A2C2B41940035393C /* Build configuration list for PBXNativeTarget "BicycleRideTracker" */;
+			buildPhases = (
+				864161362C2B41940035393C /* Sources */,
+				864161382C2B41940035393C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BicycleRideTracker;
+			productName = BicycleRideTracker;
+			productReference = 8641613A2C2B41940035393C /* BicycleRideTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		864161352C2B41940035393C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				ORGANIZATIONNAME = "graff-home";
+				TargetAttributes = {
+					864161392C2B41940035393C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 864161482C2B41940035393C /* Build configuration list for PBXProject "BicycleRideTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 864161342C2B41940035393C;
+			productRefGroup = 8641613B2C2B41940035393C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				864161392C2B41940035393C /* BicycleRideTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		864161382C2B41940035393C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864161452C2B41940035393C /* Preview Assets.xcassets in Resources */,
+				864161432C2B41940035393C /* Assets.xcassets in Resources */,
+				F541B15D2E1AD00B00EAE471 /* en.lproj/Localizable.strings in Resources */,
+				F541B15E2E1AD00C00EAE471 /* es.lproj/Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		864161362C2B41940035393C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F541B1592E1AD00700EAE471 /* AppSettings.swift in Sources */,
+				F541B15A2E1AD00800EAE471 /* SettingsView.swift in Sources */,
+				255EA23C6E0247AEA5955E429F1D7F33 /* BikeTheme.swift in Sources */,
+				8641614D2C2B41940035393C /* RideService.swift in Sources */,
+				F541B1512E1ACF4200EAE471 /* Ride.swift in Sources */,
+				864161402C2B41940035393C /* ContentView.swift in Sources */,
+				F541B1532E1B5ADF00EAE471 /* SavedRidesView.swift in Sources */,
+				F541B1552E1AD00400EAE471 /* SplashScreenView.swift in Sources */,
+				8641613E2C2B41940035393C /* BicycleRideTrackerApp.swift in Sources */,
+				F5A92F232E21B94E0035ECB2 /* AppIconView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		864161492C2B41940035393C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BicycleRideTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.graff-home.BicycleRideTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8641614B2C2B41940035393C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEVELOPMENT_TEAM = 3USU95MB4M;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bike Pedal";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				PRODUCT_BUNDLE_IDENTIFIER = com.graff.BikePedal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		864161482C2B41940035393C /* Build configuration list for PBXProject "BicycleRideTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864161492C2B41940035393C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8641614A2C2B41940035393C /* Build configuration list for PBXNativeTarget "BicycleRideTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8641614B2C2B41940035393C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 864161352C2B41940035393C /* Project object */;
+}
