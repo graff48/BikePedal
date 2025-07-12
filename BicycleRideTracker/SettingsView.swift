@@ -3,6 +3,7 @@ import SwiftUI
 
 struct SettingsView: View {
     @EnvironmentObject var appSettings: AppSettings
+    @Environment(\.dismiss) private var dismiss
 
     var body: some View {
         ZStack {
@@ -29,6 +30,22 @@ struct SettingsView: View {
             .toolbarBackground(BikeThemeColors.primary, for: .navigationBar)
             .toolbarBackground(.visible, for: .navigationBar)
             .toolbarColorScheme(.dark, for: .navigationBar)
+            .navigationBarBackButtonHidden(true)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button(action: {
+                        dismiss()
+                    }) {
+                        HStack(spacing: 6) {
+                            Image(systemName: "chevron.left")
+                                .font(.system(size: 16, weight: .semibold))
+                            Text(LocalizedString("Back Button"))
+                                .font(.system(size: 17))
+                        }
+                        .foregroundColor(.white)
+                    }
+                }
+            }
             .onDisappear {
                 appSettings.save()
             }

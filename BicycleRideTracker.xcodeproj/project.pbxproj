@@ -20,7 +20,6 @@
 		F541B15A2E1AD00800EAE471 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541B1582E1AD00600EAE471 /* SettingsView.swift */; };
 		F541B15D2E1AD00B00EAE471 /* en.lproj/Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F541B15B2E1AD00900EAE471 /* en.lproj/Localizable.strings */; };
 		F541B15E2E1AD00C00EAE471 /* es.lproj/Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F541B15C2E1AD00A00EAE471 /* es.lproj/Localizable.strings */; };
-		F5A92F232E21B94E0035ECB2 /* AppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A92F222E21B94E0035ECB2 /* AppIconView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +38,6 @@
 		F541B1582E1AD00600EAE471 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F541B15B2E1AD00900EAE471 /* en.lproj/Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F541B15C2E1AD00A00EAE471 /* es.lproj/Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F5A92F222E21B94E0035ECB2 /* AppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -62,7 +60,6 @@
 		8641613C2C2B41940035393C /* BicycleRideTracker */ = {
 			isa = PBXGroup;
 			children = (
-				F5A92F222E21B94E0035ECB2 /* AppIconView.swift */,
 				F541B1572E1AD00500EAE471 /* AppSettings.swift */,
 				F541B1582E1AD00600EAE471 /* SettingsView.swift */,
 				8641613D2C2B41940035393C /* BicycleRideTrackerApp.swift */,
@@ -177,7 +174,6 @@
 				F541B1532E1B5ADF00EAE471 /* SavedRidesView.swift in Sources */,
 				F541B1552E1AD00400EAE471 /* SplashScreenView.swift in Sources */,
 				8641613E2C2B41940035393C /* BicycleRideTrackerApp.swift in Sources */,
-				F5A92F232E21B94E0035ECB2 /* AppIconView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

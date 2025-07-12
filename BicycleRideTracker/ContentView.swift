@@ -111,16 +111,22 @@ struct ContentView: View {
                 .padding(.horizontal, 16)
                 .ignoresSafeArea(.all)
                 
-                .navigationTitle(LocalizedString("Bike Tracker"))
+                .navigationTitle("")
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbarBackground(BikeThemeColors.primary, for: .navigationBar)
                 .toolbarBackground(.visible, for: .navigationBar)
                 .toolbarColorScheme(.dark, for: .navigationBar)
                 .toolbar {
+                    ToolbarItem(placement: .principal) {
+                        Text(LocalizedString("Main Title"))
+                            .font(.system(size: 17, weight: .semibold))
+                            .foregroundColor(.white)
+                    }
                     ToolbarItem(placement: .navigationBarTrailing) {
                         NavigationLink(destination: SettingsView()) {
                             Image(systemName: "gearshape.fill")
                                 .font(.system(size: 15))
+                                .foregroundColor(.white)
                         }
                     }
                 }
